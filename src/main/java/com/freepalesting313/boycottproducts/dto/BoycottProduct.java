@@ -1,5 +1,6 @@
 package com.freepalesting313.boycottproducts.dto;
 
+import com.freepalesting313.boycottproducts.enums.Category;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import java.util.List;
 @Getter
 @Setter
 public class BoycottProduct{
-    public String product;
-    public List<String> source;
+    private String product;
+    private Category category;
+    private List<String> source;
 }

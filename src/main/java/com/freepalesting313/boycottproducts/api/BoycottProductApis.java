@@ -1,6 +1,5 @@
 package com.freepalesting313.boycottproducts.api;
 
-import com.freepalesting313.boycottproducts.dataservices.GitHubDataFetcher;
 import com.freepalesting313.boycottproducts.dto.BoycottProduct;
 import com.freepalesting313.boycottproducts.service.BoycottService;
 import org.springframework.beans.factory.annotation.Autowired;

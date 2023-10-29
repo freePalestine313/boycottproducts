@@ -30,7 +30,6 @@ public class BoycottService {
             e.printStackTrace();
             return new ArrayList<>();
         }
-        System.out.println(boycottProductList.size());
         return boycottProductList;
     }
 }

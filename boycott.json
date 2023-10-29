@@ -1,7 +1,9 @@
 [
   {
-    "product": "dove",
+    "product": "Head and shoulders",
     "category": "GROCERIES",
+    "synonyms": ["head&shoulders","Head & Shoulders"],
+    "contributor": "Ahmed",
     "source": [
       "https://kamlager-dove.house.gov/media/press-releases/kamlager-dove-statement-continued-support-israel",
       "https://www.chicagojewishnews.com/unveiling-dove-a-closer-look-at-its-relationship-with-israel/"

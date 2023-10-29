@@ -12,5 +12,6 @@ public class BoycottProduct{
     private String product;
     private Category category;
     private List<String> synonyms;
+    private String contributor;
     private List<String> source;
 }

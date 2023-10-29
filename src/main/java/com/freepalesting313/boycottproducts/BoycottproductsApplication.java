@@ -1,5 +1,6 @@
 package com.freepalesting313.boycottproducts;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -16,6 +17,11 @@ public class BoycottproductsApplication {
 	@Bean
 	public WebClient webClient() {
 		return WebClient.builder().build();
+	}
+
+	@Bean
+	public ObjectMapper objectMapper() {
+		return new ObjectMapper();
 	}
 
 }
